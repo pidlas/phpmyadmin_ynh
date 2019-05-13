@@ -34,7 +34,7 @@ ynh_composer_exec () {
 
 	COMPOSER_HOME="$workdir/.composer" \
 		php "$workdir/composer.phar" $commands \
-		-d "$workdir" --no-interaction
+		-d "$workdir" --quiet --no-interaction
 }
 
 # Install and initialize Composer in the given directory
