@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Manage MySQL databases over the web",
-        "fr": "Application web de gestion des bases de données MySQL"
+        "fr": "Application web de gestion des bases de donnees MySQL"
     },
     "version": "4.8.5~ynh2",
     "url": "http://www.phpmyadmin.net",
@@ -48,7 +48,7 @@
                 "type": "user",
                 "ask": {
                     "en": "Choose the only allowed admin user",
-                    "fr": "Choisissez l'unique utilisateur autorisé"
+                    "fr": "Choisissez l'unique utilisateur autorise"
                 },
                 "example": "johndoe"
             }
